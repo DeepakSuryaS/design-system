@@ -5,6 +5,27 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@dss-ds/foundation@workspace:^, @dss-ds/foundation@workspace:packages/foundation":
+  version: 0.0.0-use.local
+  resolution: "@dss-ds/foundation@workspace:packages/foundation"
+  languageName: unknown
+  linkType: soft
+
+"@dss-ds/react@workspace:^, @dss-ds/react@workspace:packages/react":
+  version: 0.0.0-use.local
+  resolution: "@dss-ds/react@workspace:packages/react"
+  languageName: unknown
+  linkType: soft
+
+"@dss-ds/storybook@workspace:packages/storybook":
+  version: 0.0.0-use.local
+  resolution: "@dss-ds/storybook@workspace:packages/storybook"
+  dependencies:
+    "@dss-ds/foundation": "workspace:^"
+    "@dss-ds/react": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
 "design-system@workspace:.":
   version: 0.0.0-use.local
   resolution: "design-system@workspace:."
