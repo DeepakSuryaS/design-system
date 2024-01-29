@@ -14,6 +14,8 @@ __metadata:
 "@dss-ds/react@workspace:^, @dss-ds/react@workspace:packages/react":
   version: 0.0.0-use.local
   resolution: "@dss-ds/react@workspace:packages/react"
+  dependencies:
+    "@dss-ds/foundation": "workspace:^"
   languageName: unknown
   linkType: soft
 

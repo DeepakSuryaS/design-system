@@ -1,4 +1,7 @@
 {
   "name": "@dss-ds/react",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@dss-ds/foundation": "workspace:^"
+  }
 }
