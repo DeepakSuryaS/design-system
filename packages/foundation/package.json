@@ -5,7 +5,11 @@
     "style-dictionary": "^3.9.2",
     "typescript": "^5.3.3"
   },
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
-    "build-tokens": "style-dictionary build --config sd.config.js"
+    "build-tokens": "style-dictionary build --config sd.config.js",
+    "build": "yarn build-tokens && tsc",
+    "build-tsc": "tsc --skipLibCheck"
   }
 }
