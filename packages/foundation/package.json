@@ -1,5 +1,6 @@
 {
   "name": "@dss-ds/foundation",
+  "version": "0.0.1",
   "packageManager": "yarn@4.0.2",
   "devDependencies": {
     "style-dictionary": "^3.9.2",
