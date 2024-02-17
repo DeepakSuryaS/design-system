@@ -2,7 +2,7 @@ import IconButton from '@dss-ds/react/src/IconButton';
 import { Meta, StoryFn } from '@storybook/react';
 
 export default {
-  title: 'Newline/IconButton',
+  title: 'DSS/IconButton',
   component: IconButton,
 } as Meta<typeof IconButton>;
 
